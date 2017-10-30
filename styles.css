@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+
+.background-img{
+	background: url("images/pop-up-back.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  height: 100%;
+}
+
+.central-img{
+	margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+	display: block;
+  max-width: 100%; 
+  height: auto;
+}
+
